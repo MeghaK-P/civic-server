@@ -1,0 +1,241 @@
+{
+  "users": [
+    {
+      "id": "admin001",
+      "name": "CivicLens Admin",
+      "email": "admin@civiclens.com",
+      "password": "Admin@123",
+      "role": "admin"
+    },
+    {
+      "name": "tst",
+      "email": "tst@gmail.com",
+      "password": "tsttst",
+      "role": "public",
+      "id": 1
+    },
+    {
+      "id": "staff001",
+      "name": "Road Staff",
+      "email": "roads@civiclens.com",
+      "password": "Staff@123",
+      "role": "staff",
+      "department": "Roads"
+    },
+    {
+      "id": "staff002",
+      "name": "Sanitation Staff",
+      "email": "sanitation@civiclens.com",
+      "password": "Staff@123",
+      "role": "staff",
+      "department": "Sanitation"
+    },
+    {
+      "id": "staff003",
+      "name": "Water Supply Staff",
+      "email": "water@civiclens.com",
+      "password": "Staff@123",
+      "role": "staff",
+      "department": "Water Supply"
+    },
+    {
+      "id": "staff004",
+      "name": "Electricity Staff",
+      "email": "electricity@civiclens.com",
+      "password": "Staff@123",
+      "role": "staff",
+      "department": "Electricity"
+    },
+    {
+      "name": "Akku",
+      "email": "ak@gmail.com",
+      "password": "ak@gmail.com",
+      "role": "public",
+      "id": "fv5TQfj"
+    },
+    {
+      "name": "Electricity staff 2",
+      "email": "elec@gmail.com",
+      "role": "staff",
+      "department": "Electricity",
+      "password": "1234567",
+      "id": "staff_1792126508227"
+    },
+    {
+      "name": "water staff2",
+      "email": "waterr@gmail.com",
+      "role": "staff",
+      "department": "Water Supply",
+      "password": "1234567",
+      "id": "staff_1792126533768"
+    },
+    {
+      "name": "Road staff2",
+      "email": "roadd@gmail.com",
+      "role": "staff",
+      "department": "Roads",
+      "password": "1234567",
+      "id": "staff_1792126556751"
+    },
+    {
+      "name": "Devajith Prasad",
+      "email": "deva@gmail.com",
+      "password": "devadeva",
+      "role": "public",
+      "id": "iQ5MZC7"
+    },
+    {
+      "name": "vibeshkr",
+      "email": "vibeshkr@gmail.com",
+      "password": "123456",
+      "role": "public",
+      "id": "YUF_tnC"
+    },
+    {
+      "name": "Public safety staff",
+      "email": "public@civiclens.com",
+      "role": "staff",
+      "department": "Public Safety",
+      "password": "Admin@123",
+      "id": "staff_1793293091863"
+    }
+  ],
+  "departments": [],
+  "issues": [
+    {
+      "title": "Pothole",
+      "description": "pothole..............",
+      "category": "Roads",
+      "location": "katoor",
+      "priority": "Medium",
+      "imageUrl": "https://tse1.mm.bing.net/th/id/OIP.eRrqpU9Y67eSAAoebbSJDQAAAA?r=0&w=347&h=280&rs=1&pid=ImgDetMain&o=7&rm=3",
+      "userId": 1,
+      "userName": "tst",
+      "status": "Resolved",
+      "createdAt": "2026-10-15T14:32:51.256Z",
+      "id": 1,
+      "assignedStaffId": "staff001",
+      "assignedStaffName": "Road Staff",
+      "assignedDepartment": "Roads"
+    },
+    {
+      "title": "Broken streetlight",
+      "description": "The streetlight is not working for the past 3 days.",
+      "category": "Electricity",
+      "location": "EPRA-Edathirinji",
+      "priority": "Medium",
+      "imageUrl": "https://res.cloudinary.com/p5nn8oks/image/upload/v1792126010/cj6jss0ga6ryzkkiskph.jpg",
+      "userId": "fv5TQfj",
+      "userName": "Akku",
+      "status": "Resolved",
+      "createdAt": "2026-10-16T04:46:50.357Z",
+      "id": 5,
+      "assignedStaffId": "staff004",
+      "assignedStaffName": "Electricity Staff",
+      "assignedDepartment": "Electricity",
+      "rejectionReason": "",
+      "afterImageUrl": "https://res.cloudinary.com/p5nn8oks/image/upload/v1792126288/ambcbhsyg2nhrkxa7i1d.jpg",
+      "submittedForVerificationAt": "2026-10-16T04:51:28.785Z",
+      "submittedByStaffId": "staff004",
+      "submittedByStaffName": "Electricity Staff",
+      "verifiedAt": "2026-10-16T04:52:40.587Z",
+      "verificationRejectionReason": ""
+    },
+    {
+      "title": "Garbage",
+      "description": "Garbage has been accumulating in my area for several days, causing an unpleasant smell and creating unhygienic conditions. The waste is attracting flies and stray animals and may pose health risks to nearby residents. Kindly arrange for garbage collection and proper disposal as soon as possible.",
+      "category": "Sanitation",
+      "location": "Mattenchery",
+      "priority": "Medium",
+      "imageUrl": "https://res.cloudinary.com/p5nn8oks/image/upload/v1792598690/sexpuwtuvokq05nfdsy4.webp",
+      "userId": "iQ5MZC7",
+      "userName": "Devajith Prasad",
+      "status": "In Progress",
+      "createdAt": "2026-10-21T16:04:51.510Z",
+      "id": 6,
+      "assignedStaffId": "staff002",
+      "assignedStaffName": "Sanitation Staff",
+      "assignedDepartment": "Sanitation",
+      "rejectionReason": "",
+      "afterImageUrl": "",
+      "submittedForVerificationAt": "2026-10-21T16:21:55.729Z",
+      "submittedByStaffId": "staff002",
+      "submittedByStaffName": "Sanitation Staff",
+      "verificationRejectionReason": "sjs"
+    },
+    {
+      "title": "Streetlight broken",
+      "description": "Streetlight broken",
+      "category": "Electricity",
+      "location": "Aluva",
+      "priority": "Medium",
+      "imageUrl": "https://res.cloudinary.com/p5nn8oks/image/upload/v1792643154/o1ncq2bcmghn6egjia7p.jpg",
+      "userId": "iQ5MZC7",
+      "userName": "Devajith Prasad",
+      "status": "Pending Verification",
+      "createdAt": "2026-10-22T04:25:55.142Z",
+      "id": 7,
+      "assignedStaffId": "staff004",
+      "assignedStaffName": "Electricity Staff",
+      "assignedDepartment": "Electricity",
+      "rejectionReason": "",
+      "afterImageUrl": "https://res.cloudinary.com/p5nn8oks/image/upload/v1792643522/qal7qw4ygcw5degq5rro.jpg",
+      "submittedForVerificationAt": "2026-10-22T04:32:03.360Z",
+      "submittedByStaffId": "staff004",
+      "submittedByStaffName": "Electricity Staff"
+    },
+    {
+      "title": "waste issues",
+      "description": "waste dispposal not done properly",
+      "category": "Roads",
+      "location": "near  the  resident area",
+      "priority": "High",
+      "imageUrl": "https://res.cloudinary.com/p5nn8oks/image/upload/v1792650108/zrfeqjjjqbqwzwjc7nj7.jpg",
+      "userId": "YUF_tnC",
+      "userName": "vibeshkr",
+      "status": "Resolved",
+      "createdAt": "2026-10-22T06:21:49.915Z",
+      "id": 8,
+      "assignedStaffId": "staff001",
+      "assignedStaffName": "Road Staff",
+      "assignedDepartment": "Roads",
+      "rejectionReason": "",
+      "afterImageUrl": "https://res.cloudinary.com/p5nn8oks/image/upload/v1792650387/kffr2xnzcufmfyqxeylv.jpg",
+      "submittedForVerificationAt": "2026-10-22T06:26:27.989Z",
+      "submittedByStaffId": "staff001",
+      "submittedByStaffName": "Road Staff",
+      "verifiedAt": "2026-10-22T06:27:30.432Z",
+      "verificationRejectionReason": ""
+    }
+  ],
+  "assignments": [],
+  "feedback": [
+    {
+      "issueId": "3",
+      "userId": "1",
+      "userName": "tst",
+      "rating": 4,
+      "comment": "bvb",
+      "createdAt": "2026-10-15T18:42:53.644Z",
+      "id": 1
+    },
+    {
+      "issueId": "5",
+      "userId": "fv5TQfj",
+      "userName": "Akku",
+      "rating": 5,
+      "comment": "Thankyou for the immediate support!",
+      "createdAt": "2026-10-16T04:53:20.951Z",
+      "id": 2
+    },
+    {
+      "issueId": "8",
+      "userId": "YUF_tnC",
+      "userName": "vibeshkr",
+      "rating": 5,
+      "comment": "The work has been solved successfully..Thankyou",
+      "createdAt": "2026-10-22T06:28:55.488Z",
+      "id": 3
+    }
+  ]
+}
